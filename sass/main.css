@@ -1,1 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 461PX;
+  height: 94px;
+  border-radius: 12px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  position: relative;
+}
+.body .btn-start {
+  color: #062E62;
+  margin-top: 550px;
+  margin-left: 550px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.body .btn-start a {
+  color: #062E62;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.info-page {
+  background-color: #062E62;
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 992px) {
+  .info-page {
+    background-color: red;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
