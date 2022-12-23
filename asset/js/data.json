@@ -1,0 +1,38 @@
+[
+    {
+        "question" : "1) Why is AWS more economical than traditional data centers for applications with varying compute workloads?",
+        "answer_1" : "A) Amazon EC2 costs are billed on a monthly basis",
+        "answer_2" : "B) Users retain full administrative access to their Amazon EC2 instances",
+        "answer_3" : "C) Amazon EC2 instances can be launched on demand when needed.",
+        "answer_4" : "D) Users can permanently run enough instances to handle peak workloads."
+    },
+    {
+        "question" : "2) Which AWS service would simplify the migration of a database to AWS?" ,
+        "answer_1" : "A) AWS Storage Gateway",
+        "answer_2" : "B) AWS Database Migration Service (AWS DMS)",
+        "answer_3" : "C) Amazon EC2",
+        "answer_4" : "D) Amazon AppStream 2.0"
+    },
+    {
+        "question" : "3) Which AWS offering enables users to find, buy, and immediately start using software solutions in their AWS environment?",
+        "answer_1" : "A) Amazon EC2 costs are billed on a monthly basis",
+        "answer_2" : "B) AWS OpsWorks",
+        "answer_3" : "C) AWS SDK",
+        "answer_4" : "D) AWS Marketplace"
+
+
+    },
+    {
+        "question" : "4) Which AWS networking service enables a company to create a virtual network within AWS?",
+        "answer_1" : "A) AWS Config",
+        "answer_2" : "B) Amazon Route 53",
+        "answer_3" : "C) AWS Direct Connect",
+        "answer_4" : "D) Amazon Virtual Private Cloud (Amazon VPC)"
+    },
+    {
+        "question" : "5) Which of the following is an AWS responsibility under the AWS shared responsibility model?",
+        "answer_1" : "A) Configuring third-party applications",
+        "answer_2" : "B) Maintaining physical hardware",
+        "answer_3" : "C) Securing application access and data",
+        "answer_4" : "D) Managing guest operating systems"
+    }]
