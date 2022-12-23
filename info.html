@@ -7,11 +7,77 @@
     <title>Document</title>
     <link rel="stylesheet" href="sass/main.css">
 </head>
-<body>
-    <div class="info-page">
+<body class="info-page">
+   
+        
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+                 <div class="progress-step step1 active" id="info"  >
+                   
+                 </div>
+                 <!-- quiz -->
+                 <div class="progress-step step2" id="quiz" >
+                    <span style="color: #fff ; display: none;">quiz</span>
+                 </div>
+                <!-- result -->
+                 <div class="progress-step step3" id="result">
+                    <span style="display: none; color: #fff;" >result</span>
+                 </div>
+            </div>
 
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <div class="pageinfo " >
+            <p class="info-text">
+                Preparing for AWS Certified Cloud Practitioner Don't be stressed, take our AWS quiz questions and prepare yourself for the certified cloud With these AWS Quiz Questions, we are going to you build your confidence by providing tips and tricks to solve AWS questions . 
+            </p>
+            <h5>About the Quiz :</h5>
+                <ol class="list-ordonner">
+                    <li>There is 10 Questions in this Quiz .</li>
+                    <li>You must answer each question in less than 40 seconds.</li>
+                    <li> you run out of time you answers will automatically be submitted for scoring.</li>
+                    <li>Read every question carefully and selected 1  or 2 corrects answers from the options.</li>
+                    <li>Try to answers all the questions in the Quiz</li>
+                </ol>
+            <h5>Before  starting the Quiz :</h5>
+                <ol class="list-ordonner">
+                    <li>Make sure that you have a good internet connection .</li>
+                    <li> We recommend that you maximize the browser window .</li>
+                </ol>
+        </div>
+        <div class="quizPage" style="display: none; color: #fff;">
+            <div class="quizForm">
+                <div class="quizTitle">
+                    <div class="title"><span>Category:AWS Certified Cloud </span></div>
+                    <div class="questionCountDown" id="questionCountDown"></div>
+                </div>
+                <div class="quizQuestion">
+                    <input type="button" value="1) Why is AWS more economical than traditional data centers for applications with varying compute
+                    workloads?">
+                </div>
+                <div class="quizAnswers">
+                    <div class="answers1">
+                        <button type="button" id="btnAnswer1"><span id="answer1"> A) Amazon EC2 costs are billed on a monthly basis</span></button>
+                        <button type="button" id="btnAnswer2"><span id="answer2"> B) Users retain full administrative access to their Amazon EC2 instances.</span></button>
+                    </div>
+                    <div class="answers2">
+                        <button type="button" id="btnAnswer3"><span id="answer3"> C) Amazon EC2 instances can be launched on demand when needed.</span></button>
+                        <button type="button" id="btnAnswer4"><span id="answer4"> D) Users can permanently run enough instances to handle peak workloads.</span></button>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        </div>
+         <div class="pageresult " style="display: none; color: #fff;">Result</div>
+        
+        
+
+        <button class="btn-start"  id="btn-start-quiz">Start Quiz</button>
+            
+        
+        <script src="asset/js/step-component.js"></script>
+        <script src="asset/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
