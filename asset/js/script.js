@@ -75,7 +75,6 @@
                
                  for(let i=0;i<btnAnswers.length;i++){
                     btnAnswers[i].addEventListener('click',function(e){
-                        progressQuestion.style.width = `${(currentIndex / 5) * 100}%`;
                         let rightAnswer=questionJsArray[currentIndex].rigthAnswers;
                     
                         currentIndex++;
