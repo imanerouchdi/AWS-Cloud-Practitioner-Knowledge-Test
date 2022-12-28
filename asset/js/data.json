@@ -4,22 +4,27 @@
         "answer_1" : "A) Amazon EC2 costs are billed on a monthly basis",
         "answer_2" : "B) Users retain full administrative access to their Amazon EC2 instances",
         "answer_3" : "C) Amazon EC2 instances can be launched on demand when needed.",
-        "answer_4" : "D) Users can permanently run enough instances to handle peak workloads."
+        "answer_4" : "D) Users can permanently run enough instances to handle peak workloads.",
+        "rigthAnswers": "C) Amazon EC2 instances can be launched on demand when needed.",
+        "justification" : " The ability to launch instances on demand when needed allows users to launch and terminate instances in response to a varying workload. This is a more economical practice than purchasing enough on-premises servers to handle the peak load."
     },
     {
         "question" : "2) Which AWS service would simplify the migration of a database to AWS?" ,
         "answer_1" : "A) AWS Storage Gateway",
         "answer_2" : "B) AWS Database Migration Service (AWS DMS)",
         "answer_3" : "C) Amazon EC2",
-        "answer_4" : "D) Amazon AppStream 2.0"
+        "answer_4" : "D) Amazon AppStream 2.0",
+        "rigthAnswers":"B) AWS Database Migration Service (AWS DMS)",
+        "justification":" AWS DMS helps users migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. AWS DMS        can migrate data to and from most widely used commercial and open-source databases."
     },
     {
         "question" : "3) Which AWS offering enables users to find, buy, and immediately start using software solutions in their AWS environment?",
         "answer_1" : "A) Amazon EC2 costs are billed on a monthly basis",
         "answer_2" : "B) AWS OpsWorks",
         "answer_3" : "C) AWS SDK",
-        "answer_4" : "D) AWS Marketplace"
-
+        "answer_4" : "D) AWS Marketplace",
+        "rigthAnswers":"D) AWS Marketplace",
+        "justification":"AWS Marketplace is a digital catalog with thousands of software listings from independent softwarevendors that makes it easy to find, test, buy, and deploy software that runs on AWS."
 
     },
     {
@@ -27,12 +32,16 @@
         "answer_1" : "A) AWS Config",
         "answer_2" : "B) Amazon Route 53",
         "answer_3" : "C) AWS Direct Connect",
-        "answer_4" : "D) Amazon Virtual Private Cloud (Amazon VPC)"
+        "answer_4" : "D) Amazon Virtual Private Cloud (Amazon VPC)",
+        "rigthAnswers":"D) Amazon Virtual Private Cloud (Amazon VPC)",
+        "justification":" Amazon VPC lets users provision a logically isolated section of the AWS Cloud where users can launch AWS resources in a virtual network that they define."
     },
     {
         "question" : "5) Which of the following is an AWS responsibility under the AWS shared responsibility model?",
         "answer_1" : "A) Configuring third-party applications",
         "answer_2" : "B) Maintaining physical hardware",
         "answer_3" : "C) Securing application access and data",
-        "answer_4" : "D) Managing guest operating systems"
-    }]
+        "answer_4" : "D) Managing guest operating systems",
+        "rigthAnswers":"B) Maintaining physical hardware",
+        "justification":"Maintaining physical hardware is an AWS responsibility under the AWS shared responsibility model."
+        }]
