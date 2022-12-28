@@ -138,7 +138,8 @@
     } 
 /**************** PAge Result *****************************/  
 let cmp=0,k = 0; 
-justif=document.querySelector(".justif");    
+justif=document.querySelector(".justif");  
+/*function Result*/  
 function getResult(){
     console.log(array);
     if(cmp<array.length){
